@@ -1,0 +1,7 @@
+dependencies:
+  RadioLib:
+    git: https://github.com/xl9p/RadioLib.git
+    version: TX_IRQ_mod
+  arduino:
+    git: https://github.com/xl9p/arduino-esp32.git
+    version: i2c_mutex_mod
