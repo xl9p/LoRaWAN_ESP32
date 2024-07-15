@@ -287,7 +287,9 @@ uint8_t* NodePersistence::getNwkKey() {
 const char* band_names[] = {
   "EU868",
   "US915",
-  "CN780",
+  //!MODIFIED
+  //"CN780",
+  //!----------
   "EU433",
   "AU915",
   "CN500",
@@ -299,7 +301,9 @@ const char* band_names[] = {
 const LoRaWANBand_t* band_pointers[] = {
   &EU868,
   &US915,
-  &CN780,
+  //!MODIFIED
+  // &CN780,
+  //!-----------
   &EU433,
   &AU915,
   &CN500,
